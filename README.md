@@ -25,9 +25,9 @@ The model was trained to detect four classes of hand gestures: Thumbs Up, Thumbs
 
 The model could then detect hand gestures in real time. Here are some screenshots of the same:
 
-![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.001.jpeg)
+![](https://github.com/Arun-Raghav-S/Tensorflow-Object-Detection/edit/master/images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.001.jpeg)
 
-![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.002.png)
+![](https://github.com/Arun-Raghav-S/Tensorflow-Object-Detection/edit/master/images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.002.png)
 
 ![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.003.png)
 
