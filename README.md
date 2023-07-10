@@ -29,7 +29,7 @@ The model could then detect hand gestures in real time. Here are some screenshot
 
 ![](https://github.com/Arun-Raghav-S/Tensorflow-Object-Detection/edit/master/images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.002.png)
 
-![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.003.png)
+![](./images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.003.png)
 
 Here is the video link for the real-time detection: [link](https://drive.google.com/file/d/1qrBVgpO8663VbQpn2BKV_TSPXYzMnkoO/view?usp=sharing)
 
