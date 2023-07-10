@@ -25,11 +25,11 @@ The model was trained to detect four classes of hand gestures: Thumbs Up, Thumbs
 
 The model could then detect hand gestures in real time. Here are some screenshots of the same:
 
-![](https://github.com/Arun-Raghav-S/Tensorflow-Object-Detection/edit/master/images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.001.jpeg)
+![img1](https://github.com/Arun-Raghav-S/Tensorflow-Object-Detection/edit/master/images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.001.jpeg)
 
-![](https://github.com/Arun-Raghav-S/Tensorflow-Object-Detection/edit/master/images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.002.png)
+![img2](https://github.com/Arun-Raghav-S/Tensorflow-Object-Detection/edit/master/images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.002.png)
 
-![](./images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.003.png)
+![img3](./images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.003.png)
 
 Here is the video link for the real-time detection: [link](https://drive.google.com/file/d/1qrBVgpO8663VbQpn2BKV_TSPXYzMnkoO/view?usp=sharing)
 
@@ -39,7 +39,7 @@ But this model didn’t work well when we trained it for different food models a
 
 COCO stands for Common Objects in Context, as the image dataset was created to advance image recognition. The COCO dataset contains challenging, high-quality visual datasets for computer vision, primarily state-of-the-art neural networks. For example, COCO is often used to benchmark algorithms to compare the performance of real-time object detection. The format of the COCO dataset is automatically interpreted by advanced neural network libraries. The COCO dataset classes for object detection and tracking include the following pre-trained 80 objects:
 
-![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.004.png)
+![img4](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.004.png)
 
 We then worked on three different models.
 
