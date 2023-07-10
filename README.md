@@ -27,9 +27,9 @@ The model could then detect hand gestures in real time. Here are some screenshot
 
 ![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.001.jpeg)
 
-![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.002.png)
+![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.002.png)
 
-![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.003.png)
+![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.003.png)
 
 Here is the video link for the real-time detection: [link](https://drive.google.com/file/d/1qrBVgpO8663VbQpn2BKV_TSPXYzMnkoO/view?usp=sharing)
 
@@ -43,15 +43,15 @@ COCO stands for Common Objects in Context, as the image dataset was created to a
 
 We then worked on three different models.
 
-1) **First model![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.005.jpeg)**
+1) **First model![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.005.jpeg)**
 
-LINK:-[https://towardsdatascience.com/custom-object-detection-using-te nsorflow-from-scratch-e61da2e10087](https://towardsdatascience.com/custom-object-detection-using-tensorflow-from-scratch-e61da2e10087)
+LINK:-[custom-object-detection-using-tensorflow-from-scratch](https://towardsdatascience.com/custom-object-detection-using-tensorflow-from-scratch-e61da2e10087)
 
 In this model, ssd\_mobilenet\_v2\_coco, the object was detected with low accuracy and fluctuated labeling (i.e other objects were also detected with the specified object).We also tried to rectify the problem by increasing the number of steps and training the model with more images, but there were no changes in the output.
 
-![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.006.jpeg)
+![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.006.jpeg)
 
-![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.007.jpeg)
+![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.007.jpeg)
 
 2) **Second model**
 
@@ -59,7 +59,7 @@ LINK:-[https://heartbeat.comet.ml/real-time-object-detection-using-ssd- mobilene
 
 We were not able to use this model because we were getting a particular error which couldn’t be resolved despite all our efforts. A screenshot of the error faced is attached below:
 
-![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.009.jpeg)
+![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.009.jpeg)
 
 3) **Third model**
 
@@ -67,22 +67,22 @@ LINK:-[Object Detection using SSD Mobilenet and Tensorflow Object Detection API 
 
 Out of all three models, the third one worked fine and detected objects with high accuracy. So, we decided to proceed with that. We’ve attached screenshots of the image detection of different food items present in the coco dataset by the model. We detected the objects like cake, apple, carrots, bananas, and broccoli as shown below.![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.011.jpeg)
 
-![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.012.png)
+![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.012.png)
 
-![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.013.jpeg)
+![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.013.jpeg)
 
-**Object detection in video![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.014.jpeg)**
+**Object detection in video![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.014.jpeg)**
 
 We then wrote the code for saving frames from the video in jpg format. Then, using the code for XML generation for images, we generated the XML files for video frames.
 
 Below are the attached screenshots showing the frames of the videos saved in jpg format and the XML files generated for the frames:
 
-![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.015.jpeg)
+![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.015.jpeg)
 
-And here is a screenshot of the code:![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.016.jpeg)
+And here is a screenshot of the code:![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.016.jpeg)
 
 xml generated:
 
-![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.017.jpeg)
+![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.017.jpeg)
 
 **ThankYou**
