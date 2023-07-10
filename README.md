@@ -23,13 +23,7 @@ Followed the steps provided by [Github Repository](https://github.com/nicknochna
 
 The model was trained to detect four classes of hand gestures: Thumbs Up, Thumbs down, ThankYou, and Livelong.
 
-The model could then detect hand gestures in real time. Here are some screenshots of the same:
-
-![img1](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.001.jpeg)
-
-![img2](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.002.png)
-
-![img3](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.003.png)
+The model could then detect hand gestures in real time.
 
 Here is the video link for the real-time detection: [link](https://drive.google.com/file/d/1qrBVgpO8663VbQpn2BKV_TSPXYzMnkoO/view?usp=sharing)
 
