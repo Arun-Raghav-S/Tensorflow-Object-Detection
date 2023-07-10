@@ -25,7 +25,7 @@ The model was trained to detect four classes of hand gestures: Thumbs Up, Thumbs
 
 The model could then detect hand gestures in real time. Here are some screenshots of the same:
 
-![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.001.jpeg)
+![](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.001.jpeg)
 
 ![](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.002.png)
 
