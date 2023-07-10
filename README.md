@@ -6,7 +6,6 @@ Contributors: [@kashvi0](https://github.com/kashvi0); @Anurag-Kumar-Bharti
 
 **Digital Food Experiencing using AR/VR**
 
-**Report**
 
 **Team members:**
 
