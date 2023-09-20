@@ -1,82 +1,73 @@
-# Tensorflow-Object-Detection
-This project is a machine learning model that detects food items in videos using TensorFlow and SSD MobileNet. The model is trained on the Common Objects in Context (COCO) dataset, which contains over 330,000 images of 80 object categories, including food items.The video is first converted into individual frames, and the model then calculates the accuracy of detection for each frame in the video. The results are displayed in a user-friendly format.
-This project was done under the guidance of Prof. Mitali Mukherjee (BSBE dept, IIT Jodhpur). It was a subsection of AR/VR app constructor for digital food experience.</br>
-Contributors: [@kashvi0](https://github.com/kashvi0); @Anurag-Kumar-Bharti
+# 🍽️ TensorFlow-Object-Detection
 
+Welcome to the TensorFlow-Object-Detection project! This machine learning model detects food items in videos using TensorFlow and SSD MobileNet. The model is trained on the Common Objects in Context (COCO) dataset, which contains over 330,000 images spanning 80 object categories, including various food items.
 
-**Digital Food Experiencing using AR/VR**
+The video input is initially processed by converting it into individual frames, and then the model calculates the accuracy of detection for each frame in the video. The results are displayed in a user-friendly format.
 
+This project was conducted under the guidance of Prof. Mitali Mukherjee from the BSBE department at IIT Jodhpur. It was a subsection of the AR/VR app constructor for the digital food experience. 
 
-**Team members:**
+## 👥 Contributors
+- [@kashvi0](https://github.com/kashvi0)
+- @Anurag-Kumar-Bharti
 
-Arun Raghav S Anurag Kumar Bharti Kashvi Jain
+## 🍔 Digital Food Experiencing using AR/VR
 
-**Object detection using Tensorflow**
+**Team Members:**
+- Arun Raghav S
+- Anurag Kumar Bharti
+- Kashvi Jain
 
-**Tensorflow:** It is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but focuses on training and inference of deep neural networks.
+## 🔍 Object Detection using TensorFlow
 
-**Learning Curve:**
+### TensorFlow
+TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but focuses on training and inference of deep neural networks.
 
-We followed the course on object detection on [youtube](https://www.youtube.com/watch?v=yqkISICHH-U&t=2260s) and trained our own model to detect different hand gestures in images and real-time using a webcam.
+### 📚 Learning Curve
+We followed the course on object detection on [YouTube](https://www.youtube.com/watch?v=yqkISICHH-U&t=2260s) and trained our own model to detect different hand gestures in images and real-time using a webcam.
 
-Followed the steps provided by [Github Repository](https://github.com/nicknochnack/TFODCourse).
+We closely followed the steps provided by this [GitHub Repository](https://github.com/nicknochnack/TFODCourse). Our model was trained to recognize four hand gesture classes: Thumbs Up, Thumbs down, ThankYou, and Livelong. The model successfully detected these gestures in real-time.
 
-The model was trained to detect four classes of hand gestures: Thumbs Up, Thumbs down, ThankYou, and Livelong.
+📹 **Real-time Detection Video:** [link](https://drive.google.com/file/d/1qrBVgpO8663VbQpn2BKV_TSPXYzMnkoO/view?usp=sharing)
 
-The model could then detect hand gestures in real time.
+However, this model didn't perform well when trained for different food models as it identified objects incorrectly. So, we switched to using a pre-trained model on the COCO dataset.
 
-Here is the video link for the real-time detection: [link](https://drive.google.com/file/d/1qrBVgpO8663VbQpn2BKV_TSPXYzMnkoO/view?usp=sharing)
+### COCO-DATASET
+COCO stands for Common Objects in Context, and it's a benchmark dataset for image recognition. It contains challenging, high-quality visual datasets for computer vision, primarily state-of-the-art neural networks. COCO is often used to benchmark algorithms for real-time object detection. It includes 80 object classes.
 
-But this model didn’t work well when we trained it for different food models as it identified objects incorrectly. So, we used a pre-trained model on the coco dataset.
+![COCO Dataset](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.004.png)
 
-**COCO-DATASET**
+We experimented with three different models.
 
-COCO stands for Common Objects in Context, as the image dataset was created to advance image recognition. The COCO dataset contains challenging, high-quality visual datasets for computer vision, primarily state-of-the-art neural networks. For example, COCO is often used to benchmark algorithms to compare the performance of real-time object detection. The format of the COCO dataset is automatically interpreted by advanced neural network libraries. The COCO dataset classes for object detection and tracking include the following pre-trained 80 objects:
+1) **First Model**
+   - **LINK:** [custom-object-detection-using-tensorflow-from-scratch](https://towardsdatascience.com/custom-object-detection-using-tensorflow-from-scratch-e61da2e10087)
+   - This model, using `ssd_mobilenet_v2_coco`, had low accuracy and inconsistent labeling.
+   - We attempted to improve it by increasing the number of training steps and adding more images, but there were no significant changes in the output.
 
-![img4](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.004.png)
+2) **Second Model**
+   - **LINK:** [Real-time Object Detection using SSD MobileNet V2 on Video Streams](https://heartbeat.comet.ml/real-time-object-detection-using-ssd-mobilenet-v2-on-video-streams-3bfc1577399c)
+   - We encountered an unresolved error that prevented us from using this model.
 
-We then worked on three different models.
+3) **Third Model**
+   - **LINK:** [Object Detection using SSD Mobilenet and Tensorflow Object Detection API](https://medium.com/@techmayank2000/object-detection-using-ssd-mobilenetv2-using-tensorflow-api-can-detect-any-single-class-from-31a31bbd0691)
+   - Out of all three models, the third one worked well and detected objects with high accuracy. So, we proceeded with it.
 
-1) **First model![img5](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.005.jpeg)**
+📷 **Object Detection Screenshots:**
+![Food Detection](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.013.jpeg)
 
-LINK:-[custom-object-detection-using-tensorflow-from-scratch](https://towardsdatascience.com/custom-object-detection-using-tensorflow-from-scratch-e61da2e10087)
+## 🎥 Object Detection in Video
 
-In this model, ssd\_mobilenet\_v2\_coco, the object was detected with low accuracy and fluctuated labeling (i.e other objects were also detected with the specified object).We also tried to rectify the problem by increasing the number of steps and training the model with more images, but there were no changes in the output.
+We developed code to save frames from videos in JPG format and generate XML files for these frames. This approach allowed us to detect food items in videos effectively.
 
-![img6](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.006.jpeg)
+🖼️ **Screenshots:**
 
-![img7](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.007.jpeg)
+![Video Frames](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.015.jpeg)
 
-2) **Second model**
+🧰 **Code Screenshot:**
 
-LINK:-[https://heartbeat.comet.ml/real-time-object-detection-using-ssd- mobilenet-v2-on-video-streams-3bfc1577399c](https://heartbeat.comet.ml/real-time-object-detection-using-ssd-mobilenet-v2-on-video-streams-3bfc1577399c)![img8](Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.008.jpeg)
+![Code](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.016.jpeg)
 
-We were not able to use this model because we were getting a particular error which couldn’t be resolved despite all our efforts. A screenshot of the error faced is attached below:
+📝 **XML Generated:**
 
-![img9](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.009.jpeg)
+![XML](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.017.jpeg)
 
-3) **Third model**
-
-LINK:-[Object Detection using SSD Mobilenet and Tensorflow Object Detection API : Can detect any single class from coco dataset. | by mayank singhal | Medium](https://medium.com/@techmayank2000/object-detection-using-ssd-mobilenetv2-using-tensorflow-api-can-detect-any-single-class-from-31a31bbd0691)![imh10a](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.010.jpeg)
-
-Out of all three models, the third one worked fine and detected objects with high accuracy. So, we decided to proceed with that. We’ve attached screenshots of the image detection of different food items present in the coco dataset by the model. We detected the objects like cake, apple, carrots, bananas, and broccoli as shown below.![img10b](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.011.jpeg)
-
-![img10c](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.012.png)
-
-![img11](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.013.jpeg)
-
-**Object detection in video![img12](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.014.jpeg)**
-
-We then wrote the code for saving frames from the video in jpg format. Then, using the code for XML generation for images, we generated the XML files for video frames.
-
-Below are the attached screenshots showing the frames of the videos saved in jpg format and the XML files generated for the frames:
-
-![img13](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.015.jpeg)
-
-And here is a screenshot of the code:![img14](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.016.jpeg)
-
-xml generated:
-
-![img15](images/Aspose.Words.a8591ec5-08ed-4132-b54c-d01279b4be20.017.jpeg)
-
-**ThankYou**
+**Thank You**
